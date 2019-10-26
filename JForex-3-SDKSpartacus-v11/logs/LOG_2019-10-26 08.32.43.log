@@ -1,0 +1,82 @@
+2019-10-26 08:32:47.111 INFO  singlejartest.TesterMainGUIMode - Connecting...
+2019-10-26 08:32:49.088 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - environment(jnlp.client.mode)=DEMO, platformInstanceId=null
+2019-10-26 08:32:49.115 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - Auth step 1 request [F1F1B6197F57854B4FE55E72F162006546F6A6AE]
+2019-10-26 08:32:49.118 DEBUG com.dukascopy.api.impl.connect.AuthorizationClient - >> [https://login.dukascopy.com/authorization-1/demo/auth?munus=srp_api&passus=1&sermo=ff41c165-7551-4949-90b3-501deeb342af&putent_genus=0&appello=F1F1B6197F57854B4FE55E72F162006546F6A6AE&srp_versio=1]
+2019-10-26 08:32:50.430 DEBUG com.dukascopy.api.impl.connect.AuthorizationClient - << [{"B":"3c947f06cd3b339d9f3cd25d914e29df3f8d4d1edce4e859d1a3e9de9d850017a2cbd6899fe4da8199ef386b4ed0c5e662adc810ffbbd2e62bfe665b93f1a07efad92d31f1a9999fdb4bfc3b9e164fdf20a8e0453d5cf7d0c31a6929c45c1d4e8951cce82a3b5f00ae56ee7c73503424b78525a8bd120239bd0c2bb43c14096ac06fd92efb7efaf7143b310b495143aeb14d48510cb2da9aa7ffeb91c22773f94bf6970171b964df478079898f48caf44d39ba6d6835b6d6bb04f06b3897390d1016d1e988ba44116b1b8a7ba3a5da0b171db3f339e5e6d7f8cf27ac6305167b7455113e9991ebc3612e0a78191656c794190977313de6820c0754092264616f","S":"404c04b83e449f983eaadefdcf8d8fd1","G":"2","H":"SHA-256","K":"5b9e8ef059c6b32ea59fc1d322d37f04aa30bae5aa9003b8321e21ddb04e300","N":"ac6bdb41324a9a9bf166de5e1389582faf72b6651987ee07fc3192943db56050a37329cbb4a099ed8193e0757767a13dd52312ab4b03310dcd7f48a9da04fd50e8083969edb767b0cf6095179a163ab3661a05fbd5faaae82918a9962f0b93b855f97993ec975eeaa80d740adbf4ff747359d041d5c33ea71d281e446b14773bca97b43a23fb801676bd207a436c6481f1d2b9078717461a5b9d32e688f87748544523b524b0d57d5ea77a2775d2ecfa032cfbdbf52fb3786160279004e57ae6af874e7303ce53299ccc041c7bc308d82a5698f3a8d0c38271ae35f8e9dbfbb694b5c803d89f7ae435de236d525f54759b65e372fcd68ef20fa7111f9e4aff73","srp_versio":"1"}]
+2019-10-26 08:32:50.431 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - Auth step 1 response [ServerResponseObject [passwordServerResponse=Step1ServerResponse [serverPublicValueB=3c947f06cd3b339d9f3cd25d914e29df3f8d4d1edce4e859d1a3e9de9d850017a2cbd6899fe4da8199ef386b4ed0c5e662adc810ffbbd2e62bfe665b93f1a07efad92d31f1a9999fdb4bfc3b9e164fdf20a8e0453d5cf7d0c31a6929c45c1d4e8951cce82a3b5f00ae56ee7c73503424b78525a8bd120239bd0c2bb43c14096ac06fd92efb7efaf7143b310b495143aeb14d48510cb2da9aa7ffeb91c22773f94bf6970171b964df478079898f48caf44d39ba6d6835b6d6bb04f06b3897390d1016d1e988ba44116b1b8a7ba3a5da0b171db3f339e5e6d7f8cf27ac6305167b7455113e9991ebc3612e0a78191656c794190977313de6820c0754092264616f, saltS=404c04b83e449f983eaadefdcf8d8fd1, safePrimeN=ac6bdb41324a9a9bf166de5e1389582faf72b6651987ee07fc3192943db56050a37329cbb4a099ed8193e0757767a13dd52312ab4b03310dcd7f48a9da04fd50e8083969edb767b0cf6095179a163ab3661a05fbd5faaae82918a9962f0b93b855f97993ec975eeaa80d740adbf4ff747359d041d5c33ea71d281e446b14773bca97b43a23fb801676bd207a436c6481f1d2b9078717461a5b9d32e688f87748544523b524b0d57d5ea77a2775d2ecfa032cfbdbf52fb3786160279004e57ae6af874e7303ce53299ccc041c7bc308d82a5698f3a8d0c38271ae35f8e9dbfbb694b5c803d89f7ae435de236d525f54759b65e372fcd68ef20fa7111f9e4aff73, correspondingGeneratorG=2, hashAlgorithmH=SHA-256, srpProtocolVersion=1], ]]
+2019-10-26 08:32:50.520 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - Auth step 2 request A [6548514799596464209130784895248647917880746461422652155532620919945017487705165013567892533655116772024753880220553752201669451034823929888802531890230247956423822903981212945941014262304942976901148925229413914055733345481435296304028617327996893622619496341059054282045459113587872425752743976221399690489074172637325524491434596122626617743422181479366434265805376364049742187046405744220705719321919364367077110608788708778996013803783194607830131675869086424141058823333594360792155136462115150068488128203621549226616244711797834706394989570070554385301295870674761832177662154164998358978456722803248041856134], M1 [31665324296639673205174537863101378744826872053169570449182064015623040124061]
+2019-10-26 08:32:50.521 DEBUG com.dukascopy.api.impl.connect.AuthorizationClient - >> [https://login.dukascopy.com/authorization-1/demo/auth?munus=srp_api&testimonium_nuntius=4601f03c72321dc11459294c9e641c8dd1d0907461b1146ec778cc201119c49d&passus=2&publicus_pendo=33dfcd80a2e100e048d4dec5c3947bacf7a99038874e35dd21cb6d5d1f104ef01079bb1d72d60bbacbc7a6ada1c2a7d3454838a9c4588a983e239c212d2e1ee54164bfffbf3bc28c922d23dd3fc792b9bfb7c17b08f472e2277c6818ac20bdf6b057aadc48eaee523ea775ee1d37d258e3da5921085491108538801fcbcb47f30022ab38c70362a42f36781d1375dd8dca0802cce66d72491d7d43cf77ca6f9b68ce5e10089b2ab9f859da0b9abbc6b8ac01a9d5333643bab3c3e0f5db0220c9e90ce4afa8b04d52b16b517c337f96d8a5dc38824d74be4c47155ca2e914f517f7a85d00c2921ed112ebcdf4f6ce94687a729f751a7ab743be09a95cb9688c86&sermo=ff41c165-7551-4949-90b3-501deeb342af&putent_genus=0&srp_versio=1]
+2019-10-26 08:32:51.366 DEBUG com.dukascopy.api.impl.connect.AuthorizationClient - << [{"M2":"718e7e6d083d1cb5cb10a097f6705d39e7a09e7993aab586c1ff46c8e8413ba","srp_versio":"1"}]
+2019-10-26 08:32:51.369 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - Auth step 2 response [ServerResponseObject [passwordServerResponse=Step2ServerResponse [serverEvidenceMessageM2=718e7e6d083d1cb5cb10a097f6705d39e7a09e7993aab586c1ff46c8e8413ba, srpProtocolVersion=1], ]]
+2019-10-26 08:32:51.373 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - Auth step 3 request
+2019-10-26 08:32:51.373 DEBUG com.dukascopy.api.impl.connect.AuthorizationClient - >> [https://login.dukascopy.com/authorization-1/demo/auth?munus=srp_api&passus=3&sermo=ff41c165-7551-4949-90b3-501deeb342af&versio=318.4.68&willPing=true&occasus_content_vulgate=0&putent_genus=0&occasus=true&platform=DDS3_JFOREXSDK&srp_versio=1]
+2019-10-26 08:32:52.934 DEBUG com.dukascopy.api.impl.connect.AuthorizationClient - << [{"occasus":"rO0ABXNyABRqYXZhLnV0aWwuUHJvcGVydGllczkS0HpwNj6YAgABTAAIZGVmYXVsdHN0ABZMamF2\r\nYS91dGlsL1Byb3BlcnRpZX...","authApiURLs":["d-ja-gva-121-130-118.dukascopy.com:10443","d-ja-usa-e-97-4-b.dukascopy.com:10443","d-ja-sgn-04-b.dukascopy.com:10443","d-ja-jpn-04-a.dukascopy.com:10443","d-ja-hk-110-05.dukascopy.ch:10443","d-ja-msk-10.dukascopy.com:10443","d-ja-hk-111-4.dukascopy.ch:10443"],"srp_versio":"1"}]
+2019-10-26 08:32:52.966 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - Auth step 3 response [ServerResponseObject [passwordServerResponse=Step3ServerResponse [serverResponse={"occasus":"rO0ABXNyABRqYXZhLnV0aWwuUHJvcGVydGllczkS0HpwNj6YAgABTAAIZGVmYXVsdHN0ABZMamF2\r\nYS91dGlsL1Byb3BlcnRpZX...","authApiURLs":["d-ja-gva-121-130-118.dukascopy.com:10443","d-ja-usa-e-97-4-b.dukascopy.com:10443","d-ja-sgn-04-b.dukascopy.com:10443","d-ja-jpn-04-a.dukascopy.com:10443","d-ja-hk-110-05.dukascopy.ch:10443","d-ja-msk-10.dukascopy.com:10443","d-ja-hk-111-4.dukascopy.ch:10443"],"srp_versio":"1"}], responseHeaderFields={Transfer-Encoding=[chunked], null=[HTTP/1.1 200], idle-session-ttl=[900000], CF-RAY=[52bccc7589bde5af-BOG], Server=[cloudflare], Connection=[keep-alive], Client-Country=[CO], Pragma=[no-cache], Last-Modified=[Sat, 26 Oct 2019 13:32:52 GMT], Date=[Sat, 26 Oct 2019 13:32:52 GMT], CF-Cache-Status=[DYNAMIC], Cache-Control=[no-cache, must-revalidate, no-store, max-age=0], Access-Control-Allow-Credentials=[true], Client-IP=[181.54.81.138], Vary=[Accept-Encoding], Set-Cookie=[__cfduid=db47b07253430b056e2924cfe3f64df491572096771; expires=Sun, 25-Oct-20 13:32:51 GMT; path=/; domain=.dukascopy.com; HttpOnly], Expires=[Thu, 01 Jan 1970 00:00:00 GMT], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Content-Type=[text/plain;charset=UTF-8]}]]
+2019-10-26 08:32:53.050 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - Selecting the best server...
+2019-10-26 08:32:53.226 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - The ping start time=2019-10-26 08:32:53:225
+2019-10-26 08:32:53.550 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - The ping end time=2019-10-26 08:32:53:549, the ping processing time=[324]ms
+2019-10-26 08:32:53.550 DEBUG com.dukascopy.api.impl.connect.AuthorizationClient - Best api url [d-ja-usa-e-97-4-b.dukascopy.com:10443] with time [78]
+2019-10-26 08:32:53.600 DEBUG com.dukascopy.api.impl.connect.TesterClientImpl - d-ja-usa-e-97-4-b.dukascopy.com:10443@560188f120e61059929d7571f9886ff01ebb96d2546498ced81f8ae94c2d0fdc
+2019-10-26 08:32:53.611 INFO  com.dukascopy.dds2.greed.util.FilePathManager - WL info is unavailable. Use default App folder for Platform data:  /home/merkhet/JForex
+2019-10-26 08:32:53.874 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+2019-10-26 08:32:53.884 DEBUG com.dukascopy.api.impl.connect.TesterClientImpl - UserAgent: {"clientType":"DDS3_JFOREXSDK","javaVersion":"1.8.0_201","jvmVersion":"25.201-b09","ip":"null","clientVersion":"318.4.68","osName":"Linux","userName":"null"}
+2019-10-26 08:32:55.895 INFO  com.dukascopy.dds2.greed.connection.GreedClientAuthorizationProvider - !!!:Thread[(NettyTransportClient-0) ClientConnector,6,main]
+2019-10-26 08:32:55.900 INFO  com.dukascopy.dds4.transport.client.netty.ClientConnector - Authorize task in queue, server address [d-ja-usa-e-97-4-b.dukascopy.com/107.21.41.150:10443], transport name [NettyTransportClient-0]
+2019-10-26 08:32:55.902 DEBUG com.dukascopy.api.impl.connect.TesterClientImpl - Authorized
+2019-10-26 08:32:55.909 INFO  com.dukascopy.api.instrument.subscribe.InstrumentManager - InstrumentManager created.
+2019-10-26 08:32:56.243 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+2019-10-26 08:32:56.244 INFO  singlejartest.TesterMainGUIMode - Connected
+2019-10-26 08:32:56.249 INFO  singlejartest.TesterMainGUIMode - Subscribing instruments...
+2019-10-26 08:32:56.251 INFO  singlejartest.TesterMainGUIMode - Downloading data
+2019-10-26 08:32:56.262 INFO  com.dukascopy.charts.data.datacache.metadata.FeedMetadataManager - Loading first times for [XAU/USD]...
+2019-10-26 08:32:56.351 INFO  com.dukascopy.charts.data.datacache.metadata.FeedMetadataManager - First times loaded {null={}}
+2019-10-26 08:32:56.352 WARN  com.dukascopy.charts.data.datacache.LoadDataAction - No data for XAU/USD, Ticks, 292278994-08-17 07:12:55:807
+2019-10-26 08:32:56.355 WARN  com.dukascopy.charts.data.datacache.LoadDataAction - No data for XAU/USD, 1 Min, Ask, 292278994-08-17 07:12:55:807
+2019-10-26 08:32:56.356 WARN  com.dukascopy.charts.data.datacache.LoadDataAction - No data for XAU/USD, 1 Min, Bid, 292278994-08-17 07:12:55:807
+2019-10-26 08:32:56.356 WARN  com.dukascopy.charts.data.datacache.LoadDataAction - No data for XAU/USD, Hourly, Ask, 292278994-08-17 07:12:55:807
+2019-10-26 08:32:56.357 WARN  com.dukascopy.charts.data.datacache.LoadDataAction - No data for XAU/USD, Hourly, Bid, 292278994-08-17 07:12:55:807
+2019-10-26 08:32:56.358 WARN  com.dukascopy.charts.data.datacache.LoadDataAction - No data for XAU/USD, Daily, Ask, 292278994-08-17 07:12:55:807
+2019-10-26 08:32:56.358 WARN  com.dukascopy.charts.data.datacache.LoadDataAction - No data for XAU/USD, Daily, Bid, 292278994-08-17 07:12:55:807
+2019-10-26 08:32:56.359 INFO  singlejartest.TesterMainGUIMode - Starting strategy
+2019-10-26 08:33:06.815 INFO  singlejartest.TesterMainGUIMode - Strategy started: 0
+2019-10-26 08:33:06.815 INFO  singlejartest.TesterMainGUIMode - Getting prices before start time
+2019-10-26 08:33:06.823 ERROR com.dukascopy.charts.data.datacache.LoadCustomPeriodNumberOfCandlesAction - No tick history for XAU/USD to create custom period candles of 1 Sec
+java.lang.IllegalArgumentException: No tick history for XAU/USD to create custom period candles of 1 Sec
+	at com.dukascopy.charts.data.datacache.customperiod.tick.LoadCandlesFromTicksAction.<init>(LoadCandlesFromTicksAction.java:82)
+	at com.dukascopy.charts.data.datacache.customperiod.tick.LoadCandlesFromTicksAction.<init>(LoadCandlesFromTicksAction.java:124)
+	at com.dukascopy.charts.data.datacache.LoadCustomPeriodNumberOfCandlesAction.loadCandlesFromTicks(LoadCustomPeriodNumberOfCandlesAction.java:129)
+	at com.dukascopy.charts.data.datacache.LoadCustomPeriodNumberOfCandlesAction.run(LoadCustomPeriodNumberOfCandlesAction.java:115)
+	at com.dukascopy.charts.data.datacache.LoadNumberOfCandlesAction.run(LoadNumberOfCandlesAction.java:208)
+	at com.dukascopy.charts.data.datacache.FeedDataProvider.loadCandlesDataBeforeSynched(FeedDataProvider.java:862)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.AbstractStrategyRunner.getFirstTicks(AbstractStrategyRunner.java:235)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.AbstractStrategyRunner.getFirstTicks(AbstractStrategyRunner.java:215)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyTesterRunner.initBeforeRun(StrategyTesterRunner.java:213)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyTesterRunner.run(StrategyTesterRunner.java:274)
+	at java.lang.Thread.run(Thread.java:748)
+2019-10-26 08:33:06.825 ERROR com.dukascopy.charts.data.datacache.LoadCustomPeriodNumberOfCandlesAction - No tick history for XAU/USD to create custom period candles of 1 Sec
+java.lang.IllegalArgumentException: No tick history for XAU/USD to create custom period candles of 1 Sec
+	at com.dukascopy.charts.data.datacache.customperiod.tick.LoadCandlesFromTicksAction.<init>(LoadCandlesFromTicksAction.java:82)
+	at com.dukascopy.charts.data.datacache.customperiod.tick.LoadCandlesFromTicksAction.<init>(LoadCandlesFromTicksAction.java:124)
+	at com.dukascopy.charts.data.datacache.LoadCustomPeriodNumberOfCandlesAction.loadCandlesFromTicks(LoadCustomPeriodNumberOfCandlesAction.java:129)
+	at com.dukascopy.charts.data.datacache.LoadCustomPeriodNumberOfCandlesAction.run(LoadCustomPeriodNumberOfCandlesAction.java:115)
+	at com.dukascopy.charts.data.datacache.LoadNumberOfCandlesAction.run(LoadNumberOfCandlesAction.java:208)
+	at com.dukascopy.charts.data.datacache.FeedDataProvider.loadCandlesDataBeforeSynched(FeedDataProvider.java:862)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.AbstractStrategyRunner.getFirstTicks(AbstractStrategyRunner.java:237)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.AbstractStrategyRunner.getFirstTicks(AbstractStrategyRunner.java:215)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyTesterRunner.initBeforeRun(StrategyTesterRunner.java:213)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyTesterRunner.run(StrategyTesterRunner.java:274)
+	at java.lang.Thread.run(Thread.java:748)
+2019-10-26 08:33:06.825 ERROR com.dukascopy.dds2.greed.agent.strategy.tester.AbstractStrategyRunner - No tick history for XAU/USD to create custom period candles of 1 Sec
+java.lang.IllegalArgumentException: No tick history for XAU/USD to create custom period candles of 1 Sec
+	at com.dukascopy.charts.data.datacache.customperiod.tick.LoadCandlesFromTicksAction.<init>(LoadCandlesFromTicksAction.java:82)
+	at com.dukascopy.charts.data.datacache.customperiod.tick.LoadCandlesFromTicksAction.<init>(LoadCandlesFromTicksAction.java:124)
+	at com.dukascopy.charts.data.datacache.LoadCustomPeriodNumberOfCandlesAction.loadCandlesFromTicks(LoadCustomPeriodNumberOfCandlesAction.java:129)
+	at com.dukascopy.charts.data.datacache.LoadCustomPeriodNumberOfCandlesAction.run(LoadCustomPeriodNumberOfCandlesAction.java:115)
+	at com.dukascopy.charts.data.datacache.LoadNumberOfCandlesAction.run(LoadNumberOfCandlesAction.java:208)
+	at com.dukascopy.charts.data.datacache.FeedDataProvider.loadCandlesDataBeforeSynched(FeedDataProvider.java:862)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.AbstractStrategyRunner.getFirstTicks(AbstractStrategyRunner.java:237)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.AbstractStrategyRunner.getFirstTicks(AbstractStrategyRunner.java:215)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyTesterRunner.initBeforeRun(StrategyTesterRunner.java:213)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyTesterRunner.run(StrategyTesterRunner.java:274)
+	at java.lang.Thread.run(Thread.java:748)
+2019-10-26 08:33:06.825 INFO  singlejartest.TesterMainGUIMode - Creating data loading threads
